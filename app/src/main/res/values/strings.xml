@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">A1_L6_Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send">Send</string>
+    <string name="replace">replace</string>
+    <string name="desc">Android studio:
+
+A Fragment represents a behavior or a portion of a user interface in an activity. You can combine multiple fragments in a single activity to build a multi-pane UI and reuse a fragment in multiple activities. You can think of a fragment as a modular section of an activity, which has its own lifecycle, receives its own input events, and which you can add or remove while the activity is running (sort of like a "sub activity" that you can reuse in different activities). The main goal of this lab is to learn how to use fragments in Android Applications.
+
+ Combine multiple fragments in a single activity.
+ Manage the life cycle of activities and fragments properly.
+ Implement fragment communications.
+ Use bundle objects to save state data to preserve the current UI state
+
+you will develop a Tour guide App. The app introduces the basic information about Canadian cities to the user. The app has one activity and two fragments, as shown in Fig. 1. When a user clicks on a city name in the top list fragment, the description appears in the second fragment. The app uses a bundle object to save state data to preserve the current UI state so that it doesn’t change when users rotate the device.</string>
+    <string name="title">Title</string>
+    <string name="descr">Description</string>
+    <string name="description">Description</string>
+    <string name="save">save</string>
+
+</resources>

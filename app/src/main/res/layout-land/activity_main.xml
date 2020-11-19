@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:name="com.example.a1_l6_fragment.FragmentRecView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+    <fragment
+        android:id="@+id/fragment_second"
+        android:name="com.example.a1_l6_fragment.TextFragment"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_text"/>
+</LinearLayout>
